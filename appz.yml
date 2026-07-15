@@ -25,14 +25,14 @@ volumes:
     name: uploads
     size: 250Gi
     mode: ReadWriteOnce
-    class: standard
+    class: microk8s-hostpath
     matchLabels: false
   - claim: wp-backup
     mount: /appz/backup
     name: backup
     size: 250Gi
     mode: ReadWriteOnce
-    class: standard
+    class: microk8s-hostpath
     matchLabels: false
 
 monitor:
