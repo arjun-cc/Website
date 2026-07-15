@@ -12,7 +12,7 @@ build:
   image_name: myco/website
 
 deploy:
-  context: myco/DEV
+  context: arjun-cc/DEV
   type: statefulset
   replicas: 1
   resources: xx-large
