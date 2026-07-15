@@ -55,5 +55,4 @@ properties:
     vault: MYSQL_WORDPRESS_PASSWORD
 
   SITE_TITLE: "Wordpress AppZ Workshop Demo"
-  revision : 42
-       
+  revision : 43
